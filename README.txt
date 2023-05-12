@@ -1,6 +1,6 @@
 #It's plan:
 
-1   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) /n
+1   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) 
 2   Find the 1st non-repeated character in the string 
 3   Reverse letters in the string
 4   Check if the string contains only digits
