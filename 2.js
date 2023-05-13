@@ -10,12 +10,10 @@ function findFirstNonRepeatedChar (str) {
     for (let char in charCount) {
     if (charCount[char] <= 1) {
     showSingle[char] = charCount[char];
-    
   }
 }
 return showSingle;
 }
-
 
 const str = "kaboom";
 const showSingle = findFirstNonRepeatedChar(str);
