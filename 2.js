@@ -17,6 +17,7 @@ return showSingle;
 
 const str = "kaboom";
 const showSingle = findFirstNonRepeatedChar(str);
-console.log(showSingle);
+const showFirst = Object.entries(showSingle)[0];
+console.log(showFirst); 
 
 
