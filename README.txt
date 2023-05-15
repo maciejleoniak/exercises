@@ -1,4 +1,4 @@
-#It's plan:
+#It's a plan:
 
 1   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) 
 2   Find the 1st non-repeated character in the string 
