@@ -1,5 +1,7 @@
 /* Reverse letters in the string */
 
-const word = "entry to palindrome checker";
-const reversed = word.split("").reverse().join("");
-console.log(reversed);
+function reverseLetters(string){
+    return string.split("").reverse().join("");
+};
+const string1 = "entry to palindrome checker";
+console.log(reverseLetters(string1));
