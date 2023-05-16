@@ -1,4 +1,6 @@
-/* Reverse letters in the string */
+/*
+Reverse letters in the string
+*/
 
 function reverseLetters(string){
     return string.split("").reverse().join("");

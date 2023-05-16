@@ -1,4 +1,6 @@
-/* Check if the string contains only digits */
+/*
+Check if the string contains only digits
+*/
 
 function containsOnlyDigits(string) {
     return /^\d+$/.test(string);
