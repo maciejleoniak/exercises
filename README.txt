@@ -8,7 +8,7 @@
 6   Count the occurrences of the character in a string. The method has 2 params character and word
 7   Generate all permutations for the string
 8   Check if the word is a palindrome
-9  Remove duplicate characters from the string
+9   Remove duplicate characters from the string
 10  Remove a given character from the string
 11  Find the characters with the most appearances
 12  Find the longest common prefix for an array of strings and tests written to them
