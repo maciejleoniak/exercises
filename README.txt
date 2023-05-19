@@ -11,4 +11,4 @@
 9   Remove duplicate characters from the string
 10  Remove a given character from the string
 11  Find the characters with the most appearances
-12  Find the longest common prefix for an array of strings and tests written to them
+12  Find the longest common prefix for an array of strings
