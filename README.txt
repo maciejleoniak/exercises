@@ -12,3 +12,6 @@
 10  Remove a given character from the string
 11  Find the characters with the most appearances
 12  Find the longest common prefix for an array of strings
+
+UPDATE:
+#The basic plan is done. Now I am starting to automation testing. 
