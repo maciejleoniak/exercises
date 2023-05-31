@@ -14,9 +14,9 @@ function countDuplicateChars(str) {
   return duplicates;
 }
 
-const str = "programming";
-const duplicates = countDuplicateChars(str);
-console.log(duplicates);
+// const str = "programming";
+// const duplicates = countDuplicateChars(str);
+// console.log(duplicates);
 
 // test script
 
