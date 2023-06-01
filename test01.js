@@ -40,7 +40,7 @@ function testCountDuplicateChars() {
   const duplicates3 = countDuplicateChars(str3);
   console.log("Test 3 - Expected:", expected3);
   console.log("Test 3 - Result:", duplicates3);
-  console.log("Test 3 - Pass:", JSON.stringify(duplicates3) === JSON.stringify(expected3));
+  console.log("Test 3 - Pass:", duplicates3 === expected3);
 }
 
 testCountDuplicateChars();
