@@ -19,3 +19,19 @@ function countNumOfVowels(str) {
     "Number of consonants:",
     countNumOfConsonants(string1)
   );
+
+// test script - basics of assert
+
+
+const assert = require('assert');
+
+function testCountNumOfVowelsAndConsonants() {
+  const string1 = 'nice hacky';
+  const vowelsCount = countNumOfVowels(string1);
+  const consonantsCount = countNumOfConsonants(string1);
+
+  assert.strictEqual(vowelsCount, 3, 'Incorrect number of vowels');
+  assert.strictEqual(consonantsCount, 6, 'Incorrect number of consonants');
+}
+
+testCountNumOfVowelsAndConsonants();
