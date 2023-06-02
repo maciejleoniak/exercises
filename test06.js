@@ -19,7 +19,7 @@ const word = "ABC ABC";
 const result = countOccurrencesOfTheCharInStr(character, word);
 console.log(result);
 
-// test script // 
+// test script 
 
 function testCountOccurrencesOfTheCharInStr() {
     // Test case 1: Character "a" occurs twice in the word "ABC ABC"
