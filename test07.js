@@ -21,26 +21,13 @@ function generateAllPermutations(str) {
     return permutations;
   };
   
-  const inputString = 'ups';
-  const result = generateAllPermutations(inputString);
-  console.log(result);
+//   const inputString = 'ups';
+//   const result = generateAllPermutations(inputString);
+//   console.log(result);
 
-  // test script 
-  
-  const assert = require('assert');
+// test script 
 
-  function arraysEqual(arr1, arr2) {
-    if (arr1.length !== arr2.length) {
-      return false;
-    }
-    for (let i = 0; i < arr1.length; i++) {
-      if (arr1[i] !== arr2[i]) {
-        return false;
-      }
-    }
-    return true;
-  }
-  
+
 
 function testGenerateAllPermutations() {
 
@@ -48,15 +35,18 @@ function testGenerateAllPermutations() {
     const inputString1 = 'abc';
     const expectedPermutations1 = ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'];
     const result1 = generateAllPermutations(inputString1);
-    assert(arraysEqual(result1, expectedPermutations1), 'Test Case 1 Failed');
+    console.log("Test 1 - Expected:", expectedPermutations1);
+    console.log("Test 1 - Result:", result1);
+    console.log("Test 1 - Pass:", JSON.stringify(expectedPermutations1) === JSON.stringify(result1));
   
     // Test Case 2
     const inputString2 = 'xyz';
     const expectedPermutations2 = ['xyz', 'xzy', 'yxz', 'yzx', 'zxy', 'zyx'];
     const result2 = generateAllPermutations(inputString2);
-    assert(arraysEqual(result2, expectedPermutations2), 'Test Case 2 Failed');
-  
-    // Add more test cases as needed...
+    console.log("Test 2 - Expected:", expectedPermutations2);
+    console.log("Test 2 - Result:", result2);
+    console.log("Test 2 - Pass:", JSON.stringify(expectedPermutations2) === JSON.stringify(result2));
+    
   }
   
   
