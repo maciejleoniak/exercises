@@ -26,3 +26,38 @@ function generateAllPermutations(str) {
   console.log(result);
 
   // test script 
+  
+  const assert = require('assert');
+
+  function arraysEqual(arr1, arr2) {
+    if (arr1.length !== arr2.length) {
+      return false;
+    }
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] !== arr2[i]) {
+        return false;
+      }
+    }
+    return true;
+  }
+  
+
+function testGenerateAllPermutations() {
+
+    // Test Case 1
+    const inputString1 = 'abc';
+    const expectedPermutations1 = ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'];
+    const result1 = generateAllPermutations(inputString1);
+    assert(arraysEqual(result1, expectedPermutations1), 'Test Case 1 Failed');
+  
+    // Test Case 2
+    const inputString2 = 'xyz';
+    const expectedPermutations2 = ['xyz', 'xzy', 'yxz', 'yzx', 'zxy', 'zyx'];
+    const result2 = generateAllPermutations(inputString2);
+    assert(arraysEqual(result2, expectedPermutations2), 'Test Case 2 Failed');
+  
+    // Add more test cases as needed...
+  }
+  
+  
+  testGenerateAllPermutations();
