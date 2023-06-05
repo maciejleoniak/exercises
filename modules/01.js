@@ -1,6 +1,7 @@
 /*  Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like)  */ 
 
 function countDuplicateChars(str) { 
+  str = str.toLowerCase()
     const charCount = {}; 
     for (let char of str) { 
       charCount[char] = (charCount[char] || 0) + 1; 
@@ -14,6 +15,8 @@ function countDuplicateChars(str) {
     return duplicates;
   }
 
-const str = "programming";
-const duplicates = countDuplicateChars(str);
-console.log(duplicates);
+// const str = "ProGramming";
+// const duplicates = countDuplicateChars(str);
+// console.log(duplicates);
+
+module.exports= countDuplicateChars;
