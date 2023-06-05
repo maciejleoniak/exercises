@@ -1,4 +1,4 @@
-const removeDuplicateCharacters = require('../module/09.js');
+const removeDuplicateCharacters = require('../modules/09.js');
 
   describe('removeDuplicateCharacters', () => {
     it('should remove duplicate characters from a string', () => {
