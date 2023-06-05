@@ -1,19 +1,5 @@
-// const findFirstNonRepeatedChar = require('./02.js');
+const findFirstNonRepeatedChar = require('../module/02.js');
 
-function findFirstNonRepeatedChar(str) {
-  const charCount = {};
-  for (let char of str) {
-    charCount[char] = (charCount[char] || 0) + 1;
-  }
-  const showSingle = {};
-  for (let char in charCount) {
-    if (charCount[char] === 1) {
-      showSingle[char] = charCount[char];
-    }
-  }
-  const showFirst = Object.entries(showSingle)[0];
-  return showFirst ? showFirst[0] : null;
-}
 
 describe('findFirstNonRepeatedChar', () => {
   it('should return the first non-repeated character in the string', () => {
