@@ -7,8 +7,6 @@
     "test": "tests"
   },
   "scripts": {
-    "test:02": "jest tests/02.test.js",
-    "test:09": "jest tests/09.test.js",
     "test": "jest"
   },
   "author": "",
