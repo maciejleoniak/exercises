@@ -19,4 +19,4 @@ function findFirstNonRepeatedChar(str) {
 const str = "kkaboom";
 console.log(findFirstNonRepeatedChar(str));
 
-
+module.exports = findFirstNonRepeatedChar;
