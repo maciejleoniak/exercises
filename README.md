@@ -1,3 +1,18 @@
+
+
+```sh
+npm run exercises   
+```
+
+
+```sh
+npm test   
+```
+
+
+
+
+
 #It's a plan:
 
 01   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) 
