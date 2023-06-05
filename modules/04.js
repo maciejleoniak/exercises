@@ -2,12 +2,11 @@
 Check if the string contains only digits
 */
 
-function containsOnlyDigits(string) {
-    return /^\d+$/.test(string);
+function containsOnlyDigits(str) {
+    return /^\d+$/.test(str);
 };
 
-const string1 = "test1";
-const string2 = "123";
+// const str = "test1";
+// console.log(containsOnlyDigits(str));
 
-console.log(containsOnlyDigits(string1));
-console.log(containsOnlyDigits(string2));
+module.exports = containsOnlyDigits;

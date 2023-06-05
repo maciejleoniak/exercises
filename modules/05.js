@@ -1,20 +1,22 @@
 /*
 Count the number of vowels and consonants in the string
 */
-function countNumOfVowels(str) {
-    const vowels = str.match(/[aeiou]/gi);
-    return vowels ? vowels.length : 0;
-  }
+function countVowelsAndConsonants(str) {
+  const vowels = str.match(/[aeiou]/gi);
+  const consonants = str.match(/[bcdfghjklmnpqrstvwxyz]/gi);
+  const vowelCount = vowels ? vowels.length : 0;
+  const consonantCount = consonants ? consonants.length : 0;
   
-  function countNumOfConsonants(str) {
-    const consonants = str.match(/[bcdfghjklmnpqrstvwxyz]/gi);
-    return consonants ? consonants.length : 0;
-  }
-  
-  const string1 = "nice hacky";
-  console.log(
-    "Number of vowels:",
-    countNumOfVowels(string1),
-    "Number of consonants:",
-    countNumOfConsonants(string1)
-  );
+  return {
+    vowels: vowelCount,
+    consonants: consonantCount
+  };
+}
+
+// const str = "nice hacky";
+
+// console.log(countVowelsAndConsonants(str));
+
+
+
+  module.exports = countVowelsAndConsonants;
