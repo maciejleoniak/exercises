@@ -21,6 +21,5 @@ function generateAllPermutations(str) {
   return permutations;
 };
 
-const inputString = 'ups';
-const result = generateAllPermutations(inputString);
-console.log(result);
+const str = 'ups';
+console.log(generateAllPermutations(str));
