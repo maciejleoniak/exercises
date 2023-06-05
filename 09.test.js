@@ -16,4 +16,15 @@ function removeDuplicateCharacters(str) {
   console.log(stringWithoutDuplicates);
 
 
-  // test script 
+  // test script via jest
+
+  describe('removeDuplicateCharacters', () => {
+    it('should remove duplicate characters from a string', () => {
+      const str = 'This is okey?';
+      const expected = 'This okey?';
+      
+      const result = removeDuplicateCharacters(str);
+      
+      expect(result).toEqual(expected);
+    });
+  });
