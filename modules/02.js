@@ -16,7 +16,7 @@ function findFirstNonRepeatedChar(str) {
   return showFirst ? showFirst[0] : null;
 }
 
-const str = "kkaboom";
-console.log(findFirstNonRepeatedChar(str));
+// const str = "kkaboom";
+// console.log(findFirstNonRepeatedChar(str));
 
 module.exports = findFirstNonRepeatedChar;
