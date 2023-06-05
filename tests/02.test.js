@@ -1,4 +1,4 @@
-const findFirstNonRepeatedChar = require('../module/02.js');
+const findFirstNonRepeatedChar = require('../modules/02.js');
 
 
 describe('findFirstNonRepeatedChar', () => {
