@@ -1,10 +1,10 @@
 const characterWithTheMostApperances = require('../modules/11.js');
 
 describe('characterWithTheMostApperances', () => {
-  it('should return the character(s) with the most appearances in the string', () => {
+  it('should return the first character with the most appearances in the string', () => {
     const str = "Hello, world!";
     const result = characterWithTheMostApperances(str);
-    expect(result).toEqual(['l', 'o']);
+    expect(result).toEqual(['l']);
   });
 
   it('should return an empty array if the string is empty', () => {

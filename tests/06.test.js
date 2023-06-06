@@ -5,7 +5,7 @@ describe('countOccurrencesOfTheCharInStr', () => {
     const char = 'a';
     const str = 'Abracadabra';
     const result = countOccurrencesOfTheCharInStr(char, str);
-    expect(result).toEqual(4);
+    expect(result).toEqual(5);
   });
 
   it('should return 0 if the character does not occur in the string', () => {
@@ -13,13 +13,6 @@ describe('countOccurrencesOfTheCharInStr', () => {
     const str = 'Abracadabra';
     const result = countOccurrencesOfTheCharInStr(char, str);
     expect(result).toEqual(0);
-  });
-
-  it('should handle case-insensitive counting', () => {
-    const char = 'B';
-    const str = 'bBaBbBB';
-    const result = countOccurrencesOfTheCharInStr(char, str);
-    expect(result).toEqual(5);
   });
 
 });

@@ -4,7 +4,7 @@ describe('countVowelsAndConsonants', () => {
   it('should return the correct count of vowels and consonants in a string', () => {
     const str = "nice hacky";
     const result = countVowelsAndConsonants(str);
-    expect(result.vowels).toEqual(4);
+    expect(result.vowels).toEqual(3);
     expect(result.consonants).toEqual(6);
   });
 
@@ -19,7 +19,7 @@ describe('countVowelsAndConsonants', () => {
     const str = "AbCdEfG";
     const result = countVowelsAndConsonants(str);
     expect(result.vowels).toEqual(2);
-    expect(result.consonants).toEqual(4);
+    expect(result.consonants).toEqual(5);
   });
 
 });

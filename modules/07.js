@@ -16,6 +16,9 @@ function generateAllPermutations(per) {
       };
     };
   };
+  if (per.length === 0) {
+    return permutations; 
+  }
 
   permute('', per);
   return permutations;
