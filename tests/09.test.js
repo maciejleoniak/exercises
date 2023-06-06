@@ -9,4 +9,5 @@ const removeDuplicateCharacters = require('../modules/09.js');
       
       expect(result).toEqual(expected);
     });
+    
   });

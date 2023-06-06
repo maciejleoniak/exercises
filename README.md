@@ -1,11 +1,11 @@
 
 
-```sh
+```s
 npm run exercisesAll 
 ```
 
 
-```sh
+```s
 npm test   
 ```
 
@@ -14,7 +14,7 @@ npm test
 
 
 <!-- #It's a plan: -->
-```sh
+```
 01   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) 
 02   Find the 1st non-repeated character in the string 
 03   Reverse letters in the string
