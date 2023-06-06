@@ -1,7 +1,7 @@
 
 
 ```sh
-npm run exercises   
+npm run exercisesAll 
 ```
 
 
@@ -13,8 +13,8 @@ npm test
 
 
 
-#It's a plan:
-
+<!-- #It's a plan: -->
+```sh
 01   Count duplicate characters in the string. Output can be a HashMap<String, Integer> or whatever container you like) 
 02   Find the 1st non-repeated character in the string 
 03   Reverse letters in the string
@@ -27,6 +27,6 @@ npm test
 10  Remove a given character from the string
 11  Find the characters with the most appearances
 12  Find the longest common prefix for an array of strings
-
-UPDATE:
-#The basic plan is done. Now I am starting to automation testing. 
+```
+<!-- UPDATE:
+#The basic plan is done. Now I am starting to automation testing.  -->
