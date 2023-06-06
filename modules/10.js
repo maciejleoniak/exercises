@@ -9,7 +9,8 @@ function removeCharFromString(str, char) {
 
 const str = 'abba';
 const char = 'a';
-
-// console.log(removeCharFromString(str, char));
+console.log(str);
+console.log(char);
+console.log('removeCharFromString: ',removeCharFromString(str, char));
 
 module.exports = removeCharFromString; 

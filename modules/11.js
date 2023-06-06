@@ -22,6 +22,7 @@ function characterWithTheMostApperances(str) {
   };
 
 const str = "Characters with the most appearances";
-console.log(characterWithTheMostApperances(str))
+console.log(str);
+console.log('characterWithTheMostApperances: ',characterWithTheMostApperances(str))
 
 module.exports = characterWithTheMostApperances; 

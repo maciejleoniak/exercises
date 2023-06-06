@@ -11,8 +11,9 @@ function removeDuplicateCharacters(str) {
     return result;
   };
   
-  // const str = "This is okey?";
-  // const stringWithoutDuplicates = removeDuplicateCharacters(str);
-  // console.log(stringWithoutDuplicates);
+  const str = "This is okey?";
+  console.log(str);
+  const stringWithoutDuplicates = removeDuplicateCharacters(str);
+  console.log('stringWithoutDuplicates: ',stringWithoutDuplicates);
 
   module.exports = removeDuplicateCharacters;

@@ -21,7 +21,8 @@ function generateAllPermutations(per) {
   return permutations;
 };
 
-// const per = 'ups';
-// console.log(generateAllPermutations(per));
+const per = 'ups';
+console.log(per);
+console.log('generateAllPermutations:',generateAllPermutations(per));
 
 module.exports = generateAllPermutations;

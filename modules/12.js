@@ -25,7 +25,8 @@ function longestCommonPrefix(str) {
     return prefix;
   };
   
-  // const str = ['home', 'homeland', 'homless'];
-  // console.log(longestCommonPrefix(str));
+  const str = ['home', 'homeland', 'homless'];
+  console.log(str);
+  console.log('longestCommonPrefix: ',longestCommonPrefix(str));
 
   module.exports = longestCommonPrefix; 

@@ -14,8 +14,10 @@ function countOccurrencesOfTheCharInStr(char, str){
     return count;
 };
 
-// const char = "a";
-// const str = "ABC ABC";
-// console.log(countOccurrencesOfTheCharInStr(char, str));
+const char = "a";
+const str = "ABC ABC";
+console.log(str);
+console.log(char);
+console.log('countOccurrencesOfTheCharInStr:',countOccurrencesOfTheCharInStr(char, str));
 
 module.exports = countOccurrencesOfTheCharInStr;

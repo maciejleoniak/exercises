@@ -13,8 +13,9 @@ function isAPalindrome(str) {
     };
 };
 
-// const str="work";
-// console.log(isAPalindrome(str));
+const str="work";
+console.log(str);
+console.log('isAPalindrome:',isAPalindrome(str));
 
 
 module.exports = isAPalindrome;

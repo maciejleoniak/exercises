@@ -13,9 +13,9 @@ function countVowelsAndConsonants(str) {
   };
 }
 
-// const str = "nice hacky";
-
-// console.log(countVowelsAndConsonants(str));
+const str = "nice hacky";
+console.log(str);
+console.log('countVowelsAndConsonants:',countVowelsAndConsonants(str));
 
 
 

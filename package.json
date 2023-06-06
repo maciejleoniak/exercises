@@ -8,8 +8,19 @@
   },
   "scripts": {
     "test": "jest",
-    "exercises": "node exercises.js"
-
+    "01": "node ./modules/01.js",
+    "02": "node ./modules/02.js",
+    "03": "node ./modules/03.js",
+    "04": "node ./modules/04.js",
+    "05": "node ./modules/05.js",
+    "06": "node ./modules/06.js",
+    "07": "node ./modules/07.js",
+    "08": "node ./modules/08.js",
+    "09": "node ./modules/09.js",
+    "10": "node ./modules/10.js",
+    "11": "node ./modules/11.js",
+    "12": "node ./modules/12.js",
+    "exercisesAll": "npm run 01 && npm run 02 && npm run 03 && npm run 04 && npm run 05 && npm run 06 && npm run 07 && npm run 08 && npm run 09 && npm run 10 && npm run 11 && npm run 12"
   },
   "author": "",
   "license": "ISC",
