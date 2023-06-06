@@ -2,19 +2,19 @@
 Find the longest common prefix for an array of strings 
 */
 
-function longestCommonPrefix(strings) {
-    if (strings.length === 0) {
+function longestCommonPrefix(str) {
+    if (str.length === 0) {
       return '';
     };
   
     let prefix = '';
-    const firstString = strings[0];
+    const firstString = str[0];
   
     for (let i = 0; i < firstString.length; i++) {
       const char = firstString[i];
   
-      for (let j = 1; j < strings.length; j++) {
-        if (strings[j][i] !== char) {
+      for (let j = 1; j < str.length; j++) {
+        if (str[j][i] !== char) {
           return prefix;
         };
       };
@@ -25,6 +25,7 @@ function longestCommonPrefix(strings) {
     return prefix;
   };
   
-  const strings = ['home', 'homeland', 'homless'];
-  const commonPrefix = longestCommonPrefix(strings);
-  console.log(commonPrefix);
+  // const str = ['home', 'homeland', 'homless'];
+  // console.log(longestCommonPrefix(str));
+
+  module.exports = longestCommonPrefix; 

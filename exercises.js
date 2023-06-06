@@ -4,9 +4,19 @@ const reverseLetters = require('./modules/03.js');
 const containsOnlyDigits = require('./modules/04.js');
 const countVowelsAndConsonants = require('./modules/05.js');
 
+// set up to execute exercises
 const str = 'Hello, World!';
-console.log(str);
+// set up to execute exercises
 
+// set up to 06 exercises: countOccurrencesOfTheCharInS
+const char = 'a';
+// set up to 06 exercises: countOccurrencesOfTheCharInS 
+
+// set up for 07 exercises: generateAllPermutations
+const per= 'ups';
+// set up for 07 exercises: generateAllPermutations
+
+console.log(str);
 
 const result01 = countDuplicateChars(str);
 const result02 = findFirstNonRepeatedChar(str);

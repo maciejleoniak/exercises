@@ -2,7 +2,7 @@
 Generate all permutations for the string
 */
 
-function generateAllPermutations(str) {
+function generateAllPermutations(per) {
   const permutations = [];
 
   function permute(prefix, remaining) {
@@ -17,9 +17,11 @@ function generateAllPermutations(str) {
     };
   };
 
-  permute('', str);
+  permute('', per);
   return permutations;
 };
 
-const str = 'ups';
-console.log(generateAllPermutations(str));
+// const per = 'ups';
+// console.log(generateAllPermutations(per));
+
+module.exports = generateAllPermutations;

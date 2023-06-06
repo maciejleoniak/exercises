@@ -13,7 +13,8 @@ function isAPalindrome(str) {
     };
 };
 
-const str1="work";
-console.log(isAPalindrome(str1));
-const str2="abBa";
-console.log(isAPalindrome(str2));
+// const str="work";
+// console.log(isAPalindrome(str));
+
+
+module.exports = isAPalindrome;

@@ -2,19 +2,20 @@
 Count the occurrences of the character in a string. The method has 2 params character and word
 */
 
-function countOccurrencesOfTheCharInStr(character, word){
-    character = character.toLowerCase();
-    word = word.toLowerCase();
+function countOccurrencesOfTheCharInStr(char, str){
+    char = char.toLowerCase();
+    str = str.toLowerCase();
     let count = 0;
-    for (let i = 0; i < word.length; i++){
-        if (word.charAt(i) === character) {
+    for (let i = 0; i < str.length; i++){
+        if (str.charAt(i) === char) {
             count++;
         };
     };
     return count;
 };
 
-const character = "a";
-const word = "ABC ABC";
-const result = countOccurrencesOfTheCharInStr(character, word);
-console.log(result);
+// const char = "a";
+// const str = "ABC ABC";
+// console.log(countOccurrencesOfTheCharInStr(char, str));
+
+module.exports = countOccurrencesOfTheCharInStr;

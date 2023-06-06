@@ -1,23 +1,15 @@
 /*
 Remove a given character from the string
 */
+function removeCharFromString(str, char) {
+  return str.split('').filter(function(element) {
+    return element !== char;
+  }).join('');
+}
 
-function sentence(str) {
-    return str.split('');
-  }
-  
-  function deleteChar(array, char) {
-    return array.filter(function(element) {
-        return element !== char;
-      });
-  };
+const str = 'abba';
+const char = 'a';
 
-  const inputString = 'abba';
-  const charToDelete = 'b';
-  
-  const splited = sentence(inputString);
-  const toJoin = deleteChar(splited, charToDelete);
-  
-  const sentenceWithoutChar = toJoin.join('');
-  
-  console.log(sentenceWithoutChar);
+// console.log(removeCharFromString(str, char));
+
+module.exports = removeCharFromString; 
