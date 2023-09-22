@@ -15,6 +15,7 @@ Below is specified this exercises:
 10  Remove a given character from the string
 11  Find the characters with the most appearances
 12  Find the longest common prefix for an array of strings
+13  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 ```
 
 ### Usage
